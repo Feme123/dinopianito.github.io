@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Virtual Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="white-keys">
+        <kbd class="white-key">A</kbd>
+        <kbd class="white-key">S</kbd>
+        <kbd class="white-key">D</kbd>
+        <kbd class="white-key">F</kbd>
+        <kbd class="white-key">G</kbd>
+        <kbd class="white-key">H</kbd>
+        <kbd class="white-key">J</kbd>
+    </div>
+    <div class="black-keys">
+        <kbd class="black-key">W</kbd>
+        <kbd class="black-key">E</kbd>
+        <kbd class="black-key">T</kbd>
+        <kbd class="black-key">Y</kbd>
+        <kbd class="black-key">U</kbd>
+    </div>
+</div>
+<script>
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "a") {
+            let audio = new Audio("white_keys/A.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "s") {
+            let audio = new Audio("white_keys/S.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "d") {
+            let audio = new Audio("white_keys/D.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "f") {
+            let audio = new Audio("white_keys/F.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "g") {
+            let audio = new Audio("white_keys/G.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "h") {
+            let audio = new Audio("white_keys/H.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "j") {
+            let audio = new Audio("white_keys/J.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "w") {
+            let audio = new Audio("black_keys/W.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "e") {
+            let audio = new Audio("black_keys/E.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "t") {
+            let audio = new Audio("black_keys/T.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "y") {
+            let audio = new Audio("black_keys/Y.mp3");
+            audio.play();
+        }
+    });
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "u") {
+            let audio = new Audio("black_keys/U.mp3");
+            audio.play();
+        }
+    });
+
+</script>
+</body>
+</html>
